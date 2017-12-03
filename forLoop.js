@@ -8,3 +8,8 @@ for (var i = 10; i < 41; i++)
 		console.log(i);
 	}
 
+console.log("Print all odd numbers between 300 and 333");
+for (var i = 300; i <= 333; i++) 
+	if (i % 2 !== 0) {
+		console.log(i);
+	}
