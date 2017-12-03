@@ -13,3 +13,9 @@ for (var i = 300; i <= 333; i++)
 	if (i % 2 !== 0) {
 		console.log(i);
 	}
+
+console.log("Print all numbers divisible by 5 and 50");
+for (var i = 5; i <= 50; i++) 
+	if (i % 3 === 0 && i % 5 === 0) {
+		console.log(i);
+	}
